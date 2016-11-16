@@ -44,9 +44,50 @@ public:
 
 
 public slots:
-	void compute(); 	
+	void compute(); 
+	  void newAprilTag(const tagsList &tags);
 
 private:
+    enum class State {WAIT, SEARCH};
+
+    struct Tag
+  {
+    QMutex m;
+    QVec pose;
+    int id = 0;
+    InnerModel* inner;
+    
+    int getid()
+    {
+      QMutexLocker lm(&m);
+      return id;
+    }
+    
+    void init(InnerModel* innerm)
+    {
+      inner = innerm;
+    }
+    
+    void copy(float x, float z, int iden)
+    {
+      QMutexLocker lm(&m);
+      id=iden;
+      pose=inner->transform("world",QVec::vec3(x,0,z),"base");
+      
+
+    }
+    QVec getPose()
+    {
+      QMutexLocker lm(&m);
+      return pose;
+    }
+  };
+    InnerModel* innermodel;
+    int current;
+    State st = State::SEARCH;
+    Tag t;
+
+
 	
 };
 
