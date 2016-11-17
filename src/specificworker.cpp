@@ -1,3 +1,5 @@
+
+
 /*
  *    Copyright (C) 2016 by YOUR NAME HERE
  *
@@ -38,19 +40,19 @@ bool SpecificWorker::setParams(RoboCompCommonBehavior::ParameterList params)
 {
 
 
-
+	current = 0;
 	innermodel=new InnerModel("/home/robocomp/robocomp/files/innermodel/simpleworld.xml");	
-	timer.start(Period);
-	
+	timer.start(Period);	
 
 	return true;
 }
 
 void SpecificWorker::compute()
 {
-  RoboCompDifferentialRobot::TBaseState bState;
+  
 try
   { 
+    RoboCompDifferentialRobot::TBaseState bState;
     differentialrobot_proxy->getBaseState(bState);
     innermodel->updateTransformValues("base", bState.x, 0, bState.z, 0, bState.alpha, 0);
 
@@ -60,11 +62,12 @@ try
     case State::SEARCH:
 	qDebug()<< "SEARCH";
 	if(t.getid()==current){
-	  differentialrobot_proxy->stopBase();
-// 	  gotopoint_proxy->go();
+	  gotopoint_proxy->stop();
+	  gotopoint_proxy->go("base",t.getPose().x(),t.getPose().z(),0);
+
 	  st=State::WAIT;
-	}
-	  differentialrobot_proxy->setSpeedBase(0,0.3);
+	}else
+	  gotopoint_proxy->turn(0.3);
 
 	break;
       
@@ -72,10 +75,11 @@ try
 	qDebug()<< "WAIT";
 	if(gotopoint_proxy->atTarget()==true)
 	{
-	  differentialrobot_proxy->stopBase();
+	  gotopoint_proxy->stop();
 	  st=State::SEARCH;
-	  current = current++%4;
+	  current = (current+1)%4;
 	}
+
 	break;
 // 	try
 // 	{
@@ -96,12 +100,12 @@ try
 
 void SpecificWorker::newAprilTag(const tagsList& tags)
 {
-foreach(tag t,tags){
-
-  qDebug()<< t.id;
+  qDebug()<< tags[0].id;
+  t.init(innermodel);
+  t.copy (tags[0].tx,tags[0].tz,tags[0].id);
   
 }
-}
+
 
 
 

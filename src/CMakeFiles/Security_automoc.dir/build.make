@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/salabeta/robocomp/components/parastroROB/SECURITY
+CMAKE_SOURCE_DIR = /home/juanlu/robocomp/components/parastroROB/SECURITY
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/salabeta/robocomp/components/parastroROB/SECURITY
+CMAKE_BINARY_DIR = /home/juanlu/robocomp/components/parastroROB/SECURITY
 
 # Utility rule file for Security_automoc.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/salabeta/robocomp/components/parastroROB/SECURITY
 include src/CMakeFiles/Security_automoc.dir/progress.make
 
 src/CMakeFiles/Security_automoc:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/salabeta/robocomp/components/parastroROB/SECURITY/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic moc for target Security"
-	cd /home/salabeta/robocomp/components/parastroROB/SECURITY/src && /usr/bin/cmake -E cmake_autogen /home/salabeta/robocomp/components/parastroROB/SECURITY/src/CMakeFiles/Security_automoc.dir/ Debug
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/juanlu/robocomp/components/parastroROB/SECURITY/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic moc for target Security"
+	cd /home/juanlu/robocomp/components/parastroROB/SECURITY/src && /usr/bin/cmake -E cmake_autogen /home/juanlu/robocomp/components/parastroROB/SECURITY/src/CMakeFiles/Security_automoc.dir/ Debug
 
 Security_automoc: src/CMakeFiles/Security_automoc
 Security_automoc: src/CMakeFiles/Security_automoc.dir/build.make
@@ -68,10 +68,10 @@ src/CMakeFiles/Security_automoc.dir/build: Security_automoc
 .PHONY : src/CMakeFiles/Security_automoc.dir/build
 
 src/CMakeFiles/Security_automoc.dir/clean:
-	cd /home/salabeta/robocomp/components/parastroROB/SECURITY/src && $(CMAKE_COMMAND) -P CMakeFiles/Security_automoc.dir/cmake_clean.cmake
+	cd /home/juanlu/robocomp/components/parastroROB/SECURITY/src && $(CMAKE_COMMAND) -P CMakeFiles/Security_automoc.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/Security_automoc.dir/clean
 
 src/CMakeFiles/Security_automoc.dir/depend:
-	cd /home/salabeta/robocomp/components/parastroROB/SECURITY && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/salabeta/robocomp/components/parastroROB/SECURITY /home/salabeta/robocomp/components/parastroROB/SECURITY/src /home/salabeta/robocomp/components/parastroROB/SECURITY /home/salabeta/robocomp/components/parastroROB/SECURITY/src /home/salabeta/robocomp/components/parastroROB/SECURITY/src/CMakeFiles/Security_automoc.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/juanlu/robocomp/components/parastroROB/SECURITY && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/juanlu/robocomp/components/parastroROB/SECURITY /home/juanlu/robocomp/components/parastroROB/SECURITY/src /home/juanlu/robocomp/components/parastroROB/SECURITY /home/juanlu/robocomp/components/parastroROB/SECURITY/src /home/juanlu/robocomp/components/parastroROB/SECURITY/src/CMakeFiles/Security_automoc.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/Security_automoc.dir/depend
 

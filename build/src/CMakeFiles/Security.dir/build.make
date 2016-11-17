@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/salabeta/robocomp/components/parastroROB/SECURITY
+CMAKE_SOURCE_DIR = /home/juanlu/robocomp/components/parastroROB/SECURITY
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/salabeta/robocomp/components/parastroROB/SECURITY/build
+CMAKE_BINARY_DIR = /home/juanlu/robocomp/components/parastroROB/SECURITY/build
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/Security.dir/depend.make
@@ -58,49 +58,49 @@ include src/CMakeFiles/Security.dir/progress.make
 include src/CMakeFiles/Security.dir/flags.make
 
 src/CommonBehavior.cpp: /opt/robocomp/interfaces/CommonBehavior.ice
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/salabeta/robocomp/components/parastroROB/SECURITY/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating CommonBehavior.cpp and CommonBehavior.h from CommonBehavior.ice"
-	cd /home/salabeta/robocomp/components/parastroROB/SECURITY/build/src && slice2cpp -I/opt/robocomp///interfaces/ -I/opt/robocomp/interfaces -I. /opt/robocomp/interfaces/CommonBehavior.ice --output-dir .
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/juanlu/robocomp/components/parastroROB/SECURITY/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating CommonBehavior.cpp and CommonBehavior.h from CommonBehavior.ice"
+	cd /home/juanlu/robocomp/components/parastroROB/SECURITY/build/src && slice2cpp -I/opt/robocomp///interfaces/ -I/opt/robocomp//interfaces -I/opt/robocomp/interfaces -I. /opt/robocomp//interfaces/CommonBehavior.ice --output-dir .
 
 src/CommonBehavior.h: src/CommonBehavior.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate src/CommonBehavior.h
 
 src/GotoPoint.cpp: /opt/robocomp/interfaces/GotoPoint.ice
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/salabeta/robocomp/components/parastroROB/SECURITY/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating GotoPoint.cpp and GotoPoint.h from GotoPoint.ice"
-	cd /home/salabeta/robocomp/components/parastroROB/SECURITY/build/src && slice2cpp -I/opt/robocomp///interfaces/ -I/opt/robocomp/interfaces -I. /opt/robocomp/interfaces/GotoPoint.ice --output-dir .
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/juanlu/robocomp/components/parastroROB/SECURITY/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating GotoPoint.cpp and GotoPoint.h from GotoPoint.ice"
+	cd /home/juanlu/robocomp/components/parastroROB/SECURITY/build/src && slice2cpp -I/opt/robocomp///interfaces/ -I/opt/robocomp//interfaces -I/opt/robocomp/interfaces -I. /opt/robocomp//interfaces/GotoPoint.ice --output-dir .
 
 src/GotoPoint.h: src/GotoPoint.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate src/GotoPoint.h
 
 src/AprilTags.cpp: /opt/robocomp/interfaces/AprilTags.ice
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/salabeta/robocomp/components/parastroROB/SECURITY/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating AprilTags.cpp and AprilTags.h from AprilTags.ice"
-	cd /home/salabeta/robocomp/components/parastroROB/SECURITY/build/src && slice2cpp -I/opt/robocomp///interfaces/ -I/opt/robocomp/interfaces -I. /opt/robocomp/interfaces/AprilTags.ice --output-dir .
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/juanlu/robocomp/components/parastroROB/SECURITY/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating AprilTags.cpp and AprilTags.h from AprilTags.ice"
+	cd /home/juanlu/robocomp/components/parastroROB/SECURITY/build/src && slice2cpp -I/opt/robocomp///interfaces/ -I/opt/robocomp//interfaces -I/opt/robocomp/interfaces -I. /opt/robocomp//interfaces/AprilTags.ice --output-dir .
 
 src/AprilTags.h: src/AprilTags.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate src/AprilTags.h
 
 src/DifferentialRobot.cpp: /opt/robocomp/interfaces/DifferentialRobot.ice
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/salabeta/robocomp/components/parastroROB/SECURITY/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating DifferentialRobot.cpp and DifferentialRobot.h from DifferentialRobot.ice"
-	cd /home/salabeta/robocomp/components/parastroROB/SECURITY/build/src && slice2cpp -I/opt/robocomp///interfaces/ -I/opt/robocomp/interfaces -I. /opt/robocomp/interfaces/DifferentialRobot.ice --output-dir .
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/juanlu/robocomp/components/parastroROB/SECURITY/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating DifferentialRobot.cpp and DifferentialRobot.h from DifferentialRobot.ice"
+	cd /home/juanlu/robocomp/components/parastroROB/SECURITY/build/src && slice2cpp -I/opt/robocomp///interfaces/ -I/opt/robocomp//interfaces -I/opt/robocomp/interfaces -I. /opt/robocomp//interfaces/DifferentialRobot.ice --output-dir .
 
 src/DifferentialRobot.h: src/DifferentialRobot.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate src/DifferentialRobot.h
 
 src/ui_mainUI.h: ../src/mainUI.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/salabeta/robocomp/components/parastroROB/SECURITY/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating ui_mainUI.h"
-	cd /home/salabeta/robocomp/components/parastroROB/SECURITY/build/src && /usr/lib/x86_64-linux-gnu/qt4/bin/uic -o /home/salabeta/robocomp/components/parastroROB/SECURITY/build/src/ui_mainUI.h /home/salabeta/robocomp/components/parastroROB/SECURITY/src/mainUI.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/juanlu/robocomp/components/parastroROB/SECURITY/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating ui_mainUI.h"
+	cd /home/juanlu/robocomp/components/parastroROB/SECURITY/build/src && /usr/lib/x86_64-linux-gnu/qt4/bin/uic -o /home/juanlu/robocomp/components/parastroROB/SECURITY/build/src/ui_mainUI.h /home/juanlu/robocomp/components/parastroROB/SECURITY/src/mainUI.ui
 
 src/CMakeFiles/Security.dir/specificworker.cpp.o: src/CMakeFiles/Security.dir/flags.make
 src/CMakeFiles/Security.dir/specificworker.cpp.o: ../src/specificworker.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/parastroROB/SECURITY/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/Security.dir/specificworker.cpp.o"
-	cd /home/salabeta/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Security.dir/specificworker.cpp.o -c /home/salabeta/robocomp/components/parastroROB/SECURITY/src/specificworker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/juanlu/robocomp/components/parastroROB/SECURITY/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/Security.dir/specificworker.cpp.o"
+	cd /home/juanlu/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Security.dir/specificworker.cpp.o -c /home/juanlu/robocomp/components/parastroROB/SECURITY/src/specificworker.cpp
 
 src/CMakeFiles/Security.dir/specificworker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Security.dir/specificworker.cpp.i"
-	cd /home/salabeta/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/salabeta/robocomp/components/parastroROB/SECURITY/src/specificworker.cpp > CMakeFiles/Security.dir/specificworker.cpp.i
+	cd /home/juanlu/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/juanlu/robocomp/components/parastroROB/SECURITY/src/specificworker.cpp > CMakeFiles/Security.dir/specificworker.cpp.i
 
 src/CMakeFiles/Security.dir/specificworker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Security.dir/specificworker.cpp.s"
-	cd /home/salabeta/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/salabeta/robocomp/components/parastroROB/SECURITY/src/specificworker.cpp -o CMakeFiles/Security.dir/specificworker.cpp.s
+	cd /home/juanlu/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/juanlu/robocomp/components/parastroROB/SECURITY/src/specificworker.cpp -o CMakeFiles/Security.dir/specificworker.cpp.s
 
 src/CMakeFiles/Security.dir/specificworker.cpp.o.requires:
 
@@ -115,16 +115,16 @@ src/CMakeFiles/Security.dir/specificworker.cpp.o.provides.build: src/CMakeFiles/
 
 src/CMakeFiles/Security.dir/specificmonitor.cpp.o: src/CMakeFiles/Security.dir/flags.make
 src/CMakeFiles/Security.dir/specificmonitor.cpp.o: ../src/specificmonitor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/parastroROB/SECURITY/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/Security.dir/specificmonitor.cpp.o"
-	cd /home/salabeta/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Security.dir/specificmonitor.cpp.o -c /home/salabeta/robocomp/components/parastroROB/SECURITY/src/specificmonitor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/juanlu/robocomp/components/parastroROB/SECURITY/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/Security.dir/specificmonitor.cpp.o"
+	cd /home/juanlu/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Security.dir/specificmonitor.cpp.o -c /home/juanlu/robocomp/components/parastroROB/SECURITY/src/specificmonitor.cpp
 
 src/CMakeFiles/Security.dir/specificmonitor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Security.dir/specificmonitor.cpp.i"
-	cd /home/salabeta/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/salabeta/robocomp/components/parastroROB/SECURITY/src/specificmonitor.cpp > CMakeFiles/Security.dir/specificmonitor.cpp.i
+	cd /home/juanlu/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/juanlu/robocomp/components/parastroROB/SECURITY/src/specificmonitor.cpp > CMakeFiles/Security.dir/specificmonitor.cpp.i
 
 src/CMakeFiles/Security.dir/specificmonitor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Security.dir/specificmonitor.cpp.s"
-	cd /home/salabeta/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/salabeta/robocomp/components/parastroROB/SECURITY/src/specificmonitor.cpp -o CMakeFiles/Security.dir/specificmonitor.cpp.s
+	cd /home/juanlu/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/juanlu/robocomp/components/parastroROB/SECURITY/src/specificmonitor.cpp -o CMakeFiles/Security.dir/specificmonitor.cpp.s
 
 src/CMakeFiles/Security.dir/specificmonitor.cpp.o.requires:
 
@@ -139,16 +139,16 @@ src/CMakeFiles/Security.dir/specificmonitor.cpp.o.provides.build: src/CMakeFiles
 
 src/CMakeFiles/Security.dir/opt/robocomp/classes/rapplication/rapplication.cpp.o: src/CMakeFiles/Security.dir/flags.make
 src/CMakeFiles/Security.dir/opt/robocomp/classes/rapplication/rapplication.cpp.o: /opt/robocomp/classes/rapplication/rapplication.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/parastroROB/SECURITY/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/Security.dir/opt/robocomp/classes/rapplication/rapplication.cpp.o"
-	cd /home/salabeta/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Security.dir/opt/robocomp/classes/rapplication/rapplication.cpp.o -c /opt/robocomp/classes/rapplication/rapplication.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/juanlu/robocomp/components/parastroROB/SECURITY/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/Security.dir/opt/robocomp/classes/rapplication/rapplication.cpp.o"
+	cd /home/juanlu/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Security.dir/opt/robocomp/classes/rapplication/rapplication.cpp.o -c /opt/robocomp/classes/rapplication/rapplication.cpp
 
 src/CMakeFiles/Security.dir/opt/robocomp/classes/rapplication/rapplication.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Security.dir/opt/robocomp/classes/rapplication/rapplication.cpp.i"
-	cd /home/salabeta/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/robocomp/classes/rapplication/rapplication.cpp > CMakeFiles/Security.dir/opt/robocomp/classes/rapplication/rapplication.cpp.i
+	cd /home/juanlu/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/robocomp/classes/rapplication/rapplication.cpp > CMakeFiles/Security.dir/opt/robocomp/classes/rapplication/rapplication.cpp.i
 
 src/CMakeFiles/Security.dir/opt/robocomp/classes/rapplication/rapplication.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Security.dir/opt/robocomp/classes/rapplication/rapplication.cpp.s"
-	cd /home/salabeta/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/robocomp/classes/rapplication/rapplication.cpp -o CMakeFiles/Security.dir/opt/robocomp/classes/rapplication/rapplication.cpp.s
+	cd /home/juanlu/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/robocomp/classes/rapplication/rapplication.cpp -o CMakeFiles/Security.dir/opt/robocomp/classes/rapplication/rapplication.cpp.s
 
 src/CMakeFiles/Security.dir/opt/robocomp/classes/rapplication/rapplication.cpp.o.requires:
 
@@ -163,16 +163,16 @@ src/CMakeFiles/Security.dir/opt/robocomp/classes/rapplication/rapplication.cpp.o
 
 src/CMakeFiles/Security.dir/opt/robocomp/classes/qlog/qlog.cpp.o: src/CMakeFiles/Security.dir/flags.make
 src/CMakeFiles/Security.dir/opt/robocomp/classes/qlog/qlog.cpp.o: /opt/robocomp/classes/qlog/qlog.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/parastroROB/SECURITY/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/Security.dir/opt/robocomp/classes/qlog/qlog.cpp.o"
-	cd /home/salabeta/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Security.dir/opt/robocomp/classes/qlog/qlog.cpp.o -c /opt/robocomp/classes/qlog/qlog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/juanlu/robocomp/components/parastroROB/SECURITY/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/Security.dir/opt/robocomp/classes/qlog/qlog.cpp.o"
+	cd /home/juanlu/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Security.dir/opt/robocomp/classes/qlog/qlog.cpp.o -c /opt/robocomp/classes/qlog/qlog.cpp
 
 src/CMakeFiles/Security.dir/opt/robocomp/classes/qlog/qlog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Security.dir/opt/robocomp/classes/qlog/qlog.cpp.i"
-	cd /home/salabeta/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/robocomp/classes/qlog/qlog.cpp > CMakeFiles/Security.dir/opt/robocomp/classes/qlog/qlog.cpp.i
+	cd /home/juanlu/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/robocomp/classes/qlog/qlog.cpp > CMakeFiles/Security.dir/opt/robocomp/classes/qlog/qlog.cpp.i
 
 src/CMakeFiles/Security.dir/opt/robocomp/classes/qlog/qlog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Security.dir/opt/robocomp/classes/qlog/qlog.cpp.s"
-	cd /home/salabeta/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/robocomp/classes/qlog/qlog.cpp -o CMakeFiles/Security.dir/opt/robocomp/classes/qlog/qlog.cpp.s
+	cd /home/juanlu/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/robocomp/classes/qlog/qlog.cpp -o CMakeFiles/Security.dir/opt/robocomp/classes/qlog/qlog.cpp.s
 
 src/CMakeFiles/Security.dir/opt/robocomp/classes/qlog/qlog.cpp.o.requires:
 
@@ -187,16 +187,16 @@ src/CMakeFiles/Security.dir/opt/robocomp/classes/qlog/qlog.cpp.o.provides.build:
 
 src/CMakeFiles/Security.dir/main.cpp.o: src/CMakeFiles/Security.dir/flags.make
 src/CMakeFiles/Security.dir/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/parastroROB/SECURITY/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/CMakeFiles/Security.dir/main.cpp.o"
-	cd /home/salabeta/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Security.dir/main.cpp.o -c /home/salabeta/robocomp/components/parastroROB/SECURITY/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/juanlu/robocomp/components/parastroROB/SECURITY/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/CMakeFiles/Security.dir/main.cpp.o"
+	cd /home/juanlu/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Security.dir/main.cpp.o -c /home/juanlu/robocomp/components/parastroROB/SECURITY/src/main.cpp
 
 src/CMakeFiles/Security.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Security.dir/main.cpp.i"
-	cd /home/salabeta/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/salabeta/robocomp/components/parastroROB/SECURITY/src/main.cpp > CMakeFiles/Security.dir/main.cpp.i
+	cd /home/juanlu/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/juanlu/robocomp/components/parastroROB/SECURITY/src/main.cpp > CMakeFiles/Security.dir/main.cpp.i
 
 src/CMakeFiles/Security.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Security.dir/main.cpp.s"
-	cd /home/salabeta/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/salabeta/robocomp/components/parastroROB/SECURITY/src/main.cpp -o CMakeFiles/Security.dir/main.cpp.s
+	cd /home/juanlu/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/juanlu/robocomp/components/parastroROB/SECURITY/src/main.cpp -o CMakeFiles/Security.dir/main.cpp.s
 
 src/CMakeFiles/Security.dir/main.cpp.o.requires:
 
@@ -211,16 +211,16 @@ src/CMakeFiles/Security.dir/main.cpp.o.provides.build: src/CMakeFiles/Security.d
 
 src/CMakeFiles/Security.dir/genericmonitor.cpp.o: src/CMakeFiles/Security.dir/flags.make
 src/CMakeFiles/Security.dir/genericmonitor.cpp.o: ../src/genericmonitor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/parastroROB/SECURITY/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/CMakeFiles/Security.dir/genericmonitor.cpp.o"
-	cd /home/salabeta/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Security.dir/genericmonitor.cpp.o -c /home/salabeta/robocomp/components/parastroROB/SECURITY/src/genericmonitor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/juanlu/robocomp/components/parastroROB/SECURITY/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/CMakeFiles/Security.dir/genericmonitor.cpp.o"
+	cd /home/juanlu/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Security.dir/genericmonitor.cpp.o -c /home/juanlu/robocomp/components/parastroROB/SECURITY/src/genericmonitor.cpp
 
 src/CMakeFiles/Security.dir/genericmonitor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Security.dir/genericmonitor.cpp.i"
-	cd /home/salabeta/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/salabeta/robocomp/components/parastroROB/SECURITY/src/genericmonitor.cpp > CMakeFiles/Security.dir/genericmonitor.cpp.i
+	cd /home/juanlu/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/juanlu/robocomp/components/parastroROB/SECURITY/src/genericmonitor.cpp > CMakeFiles/Security.dir/genericmonitor.cpp.i
 
 src/CMakeFiles/Security.dir/genericmonitor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Security.dir/genericmonitor.cpp.s"
-	cd /home/salabeta/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/salabeta/robocomp/components/parastroROB/SECURITY/src/genericmonitor.cpp -o CMakeFiles/Security.dir/genericmonitor.cpp.s
+	cd /home/juanlu/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/juanlu/robocomp/components/parastroROB/SECURITY/src/genericmonitor.cpp -o CMakeFiles/Security.dir/genericmonitor.cpp.s
 
 src/CMakeFiles/Security.dir/genericmonitor.cpp.o.requires:
 
@@ -235,16 +235,16 @@ src/CMakeFiles/Security.dir/genericmonitor.cpp.o.provides.build: src/CMakeFiles/
 
 src/CMakeFiles/Security.dir/commonbehaviorI.cpp.o: src/CMakeFiles/Security.dir/flags.make
 src/CMakeFiles/Security.dir/commonbehaviorI.cpp.o: ../src/commonbehaviorI.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/parastroROB/SECURITY/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/CMakeFiles/Security.dir/commonbehaviorI.cpp.o"
-	cd /home/salabeta/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Security.dir/commonbehaviorI.cpp.o -c /home/salabeta/robocomp/components/parastroROB/SECURITY/src/commonbehaviorI.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/juanlu/robocomp/components/parastroROB/SECURITY/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/CMakeFiles/Security.dir/commonbehaviorI.cpp.o"
+	cd /home/juanlu/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Security.dir/commonbehaviorI.cpp.o -c /home/juanlu/robocomp/components/parastroROB/SECURITY/src/commonbehaviorI.cpp
 
 src/CMakeFiles/Security.dir/commonbehaviorI.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Security.dir/commonbehaviorI.cpp.i"
-	cd /home/salabeta/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/salabeta/robocomp/components/parastroROB/SECURITY/src/commonbehaviorI.cpp > CMakeFiles/Security.dir/commonbehaviorI.cpp.i
+	cd /home/juanlu/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/juanlu/robocomp/components/parastroROB/SECURITY/src/commonbehaviorI.cpp > CMakeFiles/Security.dir/commonbehaviorI.cpp.i
 
 src/CMakeFiles/Security.dir/commonbehaviorI.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Security.dir/commonbehaviorI.cpp.s"
-	cd /home/salabeta/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/salabeta/robocomp/components/parastroROB/SECURITY/src/commonbehaviorI.cpp -o CMakeFiles/Security.dir/commonbehaviorI.cpp.s
+	cd /home/juanlu/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/juanlu/robocomp/components/parastroROB/SECURITY/src/commonbehaviorI.cpp -o CMakeFiles/Security.dir/commonbehaviorI.cpp.s
 
 src/CMakeFiles/Security.dir/commonbehaviorI.cpp.o.requires:
 
@@ -259,16 +259,16 @@ src/CMakeFiles/Security.dir/commonbehaviorI.cpp.o.provides.build: src/CMakeFiles
 
 src/CMakeFiles/Security.dir/genericworker.cpp.o: src/CMakeFiles/Security.dir/flags.make
 src/CMakeFiles/Security.dir/genericworker.cpp.o: ../src/genericworker.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/parastroROB/SECURITY/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/CMakeFiles/Security.dir/genericworker.cpp.o"
-	cd /home/salabeta/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Security.dir/genericworker.cpp.o -c /home/salabeta/robocomp/components/parastroROB/SECURITY/src/genericworker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/juanlu/robocomp/components/parastroROB/SECURITY/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/CMakeFiles/Security.dir/genericworker.cpp.o"
+	cd /home/juanlu/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Security.dir/genericworker.cpp.o -c /home/juanlu/robocomp/components/parastroROB/SECURITY/src/genericworker.cpp
 
 src/CMakeFiles/Security.dir/genericworker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Security.dir/genericworker.cpp.i"
-	cd /home/salabeta/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/salabeta/robocomp/components/parastroROB/SECURITY/src/genericworker.cpp > CMakeFiles/Security.dir/genericworker.cpp.i
+	cd /home/juanlu/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/juanlu/robocomp/components/parastroROB/SECURITY/src/genericworker.cpp > CMakeFiles/Security.dir/genericworker.cpp.i
 
 src/CMakeFiles/Security.dir/genericworker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Security.dir/genericworker.cpp.s"
-	cd /home/salabeta/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/salabeta/robocomp/components/parastroROB/SECURITY/src/genericworker.cpp -o CMakeFiles/Security.dir/genericworker.cpp.s
+	cd /home/juanlu/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/juanlu/robocomp/components/parastroROB/SECURITY/src/genericworker.cpp -o CMakeFiles/Security.dir/genericworker.cpp.s
 
 src/CMakeFiles/Security.dir/genericworker.cpp.o.requires:
 
@@ -283,16 +283,16 @@ src/CMakeFiles/Security.dir/genericworker.cpp.o.provides.build: src/CMakeFiles/S
 
 src/CMakeFiles/Security.dir/apriltagsI.cpp.o: src/CMakeFiles/Security.dir/flags.make
 src/CMakeFiles/Security.dir/apriltagsI.cpp.o: ../src/apriltagsI.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/parastroROB/SECURITY/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object src/CMakeFiles/Security.dir/apriltagsI.cpp.o"
-	cd /home/salabeta/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Security.dir/apriltagsI.cpp.o -c /home/salabeta/robocomp/components/parastroROB/SECURITY/src/apriltagsI.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/juanlu/robocomp/components/parastroROB/SECURITY/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object src/CMakeFiles/Security.dir/apriltagsI.cpp.o"
+	cd /home/juanlu/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Security.dir/apriltagsI.cpp.o -c /home/juanlu/robocomp/components/parastroROB/SECURITY/src/apriltagsI.cpp
 
 src/CMakeFiles/Security.dir/apriltagsI.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Security.dir/apriltagsI.cpp.i"
-	cd /home/salabeta/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/salabeta/robocomp/components/parastroROB/SECURITY/src/apriltagsI.cpp > CMakeFiles/Security.dir/apriltagsI.cpp.i
+	cd /home/juanlu/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/juanlu/robocomp/components/parastroROB/SECURITY/src/apriltagsI.cpp > CMakeFiles/Security.dir/apriltagsI.cpp.i
 
 src/CMakeFiles/Security.dir/apriltagsI.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Security.dir/apriltagsI.cpp.s"
-	cd /home/salabeta/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/salabeta/robocomp/components/parastroROB/SECURITY/src/apriltagsI.cpp -o CMakeFiles/Security.dir/apriltagsI.cpp.s
+	cd /home/juanlu/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/juanlu/robocomp/components/parastroROB/SECURITY/src/apriltagsI.cpp -o CMakeFiles/Security.dir/apriltagsI.cpp.s
 
 src/CMakeFiles/Security.dir/apriltagsI.cpp.o.requires:
 
@@ -307,16 +307,16 @@ src/CMakeFiles/Security.dir/apriltagsI.cpp.o.provides.build: src/CMakeFiles/Secu
 
 src/CMakeFiles/Security.dir/CommonBehavior.cpp.o: src/CMakeFiles/Security.dir/flags.make
 src/CMakeFiles/Security.dir/CommonBehavior.cpp.o: src/CommonBehavior.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/parastroROB/SECURITY/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object src/CMakeFiles/Security.dir/CommonBehavior.cpp.o"
-	cd /home/salabeta/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Security.dir/CommonBehavior.cpp.o -c /home/salabeta/robocomp/components/parastroROB/SECURITY/build/src/CommonBehavior.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/juanlu/robocomp/components/parastroROB/SECURITY/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object src/CMakeFiles/Security.dir/CommonBehavior.cpp.o"
+	cd /home/juanlu/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Security.dir/CommonBehavior.cpp.o -c /home/juanlu/robocomp/components/parastroROB/SECURITY/build/src/CommonBehavior.cpp
 
 src/CMakeFiles/Security.dir/CommonBehavior.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Security.dir/CommonBehavior.cpp.i"
-	cd /home/salabeta/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/salabeta/robocomp/components/parastroROB/SECURITY/build/src/CommonBehavior.cpp > CMakeFiles/Security.dir/CommonBehavior.cpp.i
+	cd /home/juanlu/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/juanlu/robocomp/components/parastroROB/SECURITY/build/src/CommonBehavior.cpp > CMakeFiles/Security.dir/CommonBehavior.cpp.i
 
 src/CMakeFiles/Security.dir/CommonBehavior.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Security.dir/CommonBehavior.cpp.s"
-	cd /home/salabeta/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/salabeta/robocomp/components/parastroROB/SECURITY/build/src/CommonBehavior.cpp -o CMakeFiles/Security.dir/CommonBehavior.cpp.s
+	cd /home/juanlu/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/juanlu/robocomp/components/parastroROB/SECURITY/build/src/CommonBehavior.cpp -o CMakeFiles/Security.dir/CommonBehavior.cpp.s
 
 src/CMakeFiles/Security.dir/CommonBehavior.cpp.o.requires:
 
@@ -331,16 +331,16 @@ src/CMakeFiles/Security.dir/CommonBehavior.cpp.o.provides.build: src/CMakeFiles/
 
 src/CMakeFiles/Security.dir/GotoPoint.cpp.o: src/CMakeFiles/Security.dir/flags.make
 src/CMakeFiles/Security.dir/GotoPoint.cpp.o: src/GotoPoint.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/parastroROB/SECURITY/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object src/CMakeFiles/Security.dir/GotoPoint.cpp.o"
-	cd /home/salabeta/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Security.dir/GotoPoint.cpp.o -c /home/salabeta/robocomp/components/parastroROB/SECURITY/build/src/GotoPoint.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/juanlu/robocomp/components/parastroROB/SECURITY/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object src/CMakeFiles/Security.dir/GotoPoint.cpp.o"
+	cd /home/juanlu/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Security.dir/GotoPoint.cpp.o -c /home/juanlu/robocomp/components/parastroROB/SECURITY/build/src/GotoPoint.cpp
 
 src/CMakeFiles/Security.dir/GotoPoint.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Security.dir/GotoPoint.cpp.i"
-	cd /home/salabeta/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/salabeta/robocomp/components/parastroROB/SECURITY/build/src/GotoPoint.cpp > CMakeFiles/Security.dir/GotoPoint.cpp.i
+	cd /home/juanlu/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/juanlu/robocomp/components/parastroROB/SECURITY/build/src/GotoPoint.cpp > CMakeFiles/Security.dir/GotoPoint.cpp.i
 
 src/CMakeFiles/Security.dir/GotoPoint.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Security.dir/GotoPoint.cpp.s"
-	cd /home/salabeta/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/salabeta/robocomp/components/parastroROB/SECURITY/build/src/GotoPoint.cpp -o CMakeFiles/Security.dir/GotoPoint.cpp.s
+	cd /home/juanlu/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/juanlu/robocomp/components/parastroROB/SECURITY/build/src/GotoPoint.cpp -o CMakeFiles/Security.dir/GotoPoint.cpp.s
 
 src/CMakeFiles/Security.dir/GotoPoint.cpp.o.requires:
 
@@ -355,16 +355,16 @@ src/CMakeFiles/Security.dir/GotoPoint.cpp.o.provides.build: src/CMakeFiles/Secur
 
 src/CMakeFiles/Security.dir/AprilTags.cpp.o: src/CMakeFiles/Security.dir/flags.make
 src/CMakeFiles/Security.dir/AprilTags.cpp.o: src/AprilTags.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/parastroROB/SECURITY/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object src/CMakeFiles/Security.dir/AprilTags.cpp.o"
-	cd /home/salabeta/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Security.dir/AprilTags.cpp.o -c /home/salabeta/robocomp/components/parastroROB/SECURITY/build/src/AprilTags.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/juanlu/robocomp/components/parastroROB/SECURITY/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object src/CMakeFiles/Security.dir/AprilTags.cpp.o"
+	cd /home/juanlu/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Security.dir/AprilTags.cpp.o -c /home/juanlu/robocomp/components/parastroROB/SECURITY/build/src/AprilTags.cpp
 
 src/CMakeFiles/Security.dir/AprilTags.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Security.dir/AprilTags.cpp.i"
-	cd /home/salabeta/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/salabeta/robocomp/components/parastroROB/SECURITY/build/src/AprilTags.cpp > CMakeFiles/Security.dir/AprilTags.cpp.i
+	cd /home/juanlu/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/juanlu/robocomp/components/parastroROB/SECURITY/build/src/AprilTags.cpp > CMakeFiles/Security.dir/AprilTags.cpp.i
 
 src/CMakeFiles/Security.dir/AprilTags.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Security.dir/AprilTags.cpp.s"
-	cd /home/salabeta/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/salabeta/robocomp/components/parastroROB/SECURITY/build/src/AprilTags.cpp -o CMakeFiles/Security.dir/AprilTags.cpp.s
+	cd /home/juanlu/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/juanlu/robocomp/components/parastroROB/SECURITY/build/src/AprilTags.cpp -o CMakeFiles/Security.dir/AprilTags.cpp.s
 
 src/CMakeFiles/Security.dir/AprilTags.cpp.o.requires:
 
@@ -379,16 +379,16 @@ src/CMakeFiles/Security.dir/AprilTags.cpp.o.provides.build: src/CMakeFiles/Secur
 
 src/CMakeFiles/Security.dir/DifferentialRobot.cpp.o: src/CMakeFiles/Security.dir/flags.make
 src/CMakeFiles/Security.dir/DifferentialRobot.cpp.o: src/DifferentialRobot.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/parastroROB/SECURITY/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object src/CMakeFiles/Security.dir/DifferentialRobot.cpp.o"
-	cd /home/salabeta/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Security.dir/DifferentialRobot.cpp.o -c /home/salabeta/robocomp/components/parastroROB/SECURITY/build/src/DifferentialRobot.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/juanlu/robocomp/components/parastroROB/SECURITY/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object src/CMakeFiles/Security.dir/DifferentialRobot.cpp.o"
+	cd /home/juanlu/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Security.dir/DifferentialRobot.cpp.o -c /home/juanlu/robocomp/components/parastroROB/SECURITY/build/src/DifferentialRobot.cpp
 
 src/CMakeFiles/Security.dir/DifferentialRobot.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Security.dir/DifferentialRobot.cpp.i"
-	cd /home/salabeta/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/salabeta/robocomp/components/parastroROB/SECURITY/build/src/DifferentialRobot.cpp > CMakeFiles/Security.dir/DifferentialRobot.cpp.i
+	cd /home/juanlu/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/juanlu/robocomp/components/parastroROB/SECURITY/build/src/DifferentialRobot.cpp > CMakeFiles/Security.dir/DifferentialRobot.cpp.i
 
 src/CMakeFiles/Security.dir/DifferentialRobot.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Security.dir/DifferentialRobot.cpp.s"
-	cd /home/salabeta/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/salabeta/robocomp/components/parastroROB/SECURITY/build/src/DifferentialRobot.cpp -o CMakeFiles/Security.dir/DifferentialRobot.cpp.s
+	cd /home/juanlu/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/juanlu/robocomp/components/parastroROB/SECURITY/build/src/DifferentialRobot.cpp -o CMakeFiles/Security.dir/DifferentialRobot.cpp.s
 
 src/CMakeFiles/Security.dir/DifferentialRobot.cpp.o.requires:
 
@@ -403,16 +403,16 @@ src/CMakeFiles/Security.dir/DifferentialRobot.cpp.o.provides.build: src/CMakeFil
 
 src/CMakeFiles/Security.dir/Security_automoc.cpp.o: src/CMakeFiles/Security.dir/flags.make
 src/CMakeFiles/Security.dir/Security_automoc.cpp.o: src/Security_automoc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/parastroROB/SECURITY/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object src/CMakeFiles/Security.dir/Security_automoc.cpp.o"
-	cd /home/salabeta/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Security.dir/Security_automoc.cpp.o -c /home/salabeta/robocomp/components/parastroROB/SECURITY/build/src/Security_automoc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/juanlu/robocomp/components/parastroROB/SECURITY/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object src/CMakeFiles/Security.dir/Security_automoc.cpp.o"
+	cd /home/juanlu/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Security.dir/Security_automoc.cpp.o -c /home/juanlu/robocomp/components/parastroROB/SECURITY/build/src/Security_automoc.cpp
 
 src/CMakeFiles/Security.dir/Security_automoc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Security.dir/Security_automoc.cpp.i"
-	cd /home/salabeta/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/salabeta/robocomp/components/parastroROB/SECURITY/build/src/Security_automoc.cpp > CMakeFiles/Security.dir/Security_automoc.cpp.i
+	cd /home/juanlu/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/juanlu/robocomp/components/parastroROB/SECURITY/build/src/Security_automoc.cpp > CMakeFiles/Security.dir/Security_automoc.cpp.i
 
 src/CMakeFiles/Security.dir/Security_automoc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Security.dir/Security_automoc.cpp.s"
-	cd /home/salabeta/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/salabeta/robocomp/components/parastroROB/SECURITY/build/src/Security_automoc.cpp -o CMakeFiles/Security.dir/Security_automoc.cpp.s
+	cd /home/juanlu/robocomp/components/parastroROB/SECURITY/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/juanlu/robocomp/components/parastroROB/SECURITY/build/src/Security_automoc.cpp -o CMakeFiles/Security.dir/Security_automoc.cpp.s
 
 src/CMakeFiles/Security.dir/Security_automoc.cpp.o.requires:
 
@@ -464,13 +464,9 @@ Security_EXTERNAL_OBJECTS =
 ../bin/Security: /usr/lib/x86_64-linux-gnu/libQtGui.so
 ../bin/Security: /usr/lib/x86_64-linux-gnu/libQtXml.so
 ../bin/Security: /usr/lib/x86_64-linux-gnu/libQtCore.so
-../bin/Security: /usr/lib/x86_64-linux-gnu/libQtOpenGL.so
-../bin/Security: /usr/lib/x86_64-linux-gnu/libQtGui.so
-../bin/Security: /usr/lib/x86_64-linux-gnu/libQtXml.so
-../bin/Security: /usr/lib/x86_64-linux-gnu/libQtCore.so
 ../bin/Security: src/CMakeFiles/Security.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/salabeta/robocomp/components/parastroROB/SECURITY/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable ../../bin/Security"
-	cd /home/salabeta/robocomp/components/parastroROB/SECURITY/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Security.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/juanlu/robocomp/components/parastroROB/SECURITY/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable ../../bin/Security"
+	cd /home/juanlu/robocomp/components/parastroROB/SECURITY/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Security.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/Security.dir/build: ../bin/Security
@@ -495,7 +491,7 @@ src/CMakeFiles/Security.dir/requires: src/CMakeFiles/Security.dir/Security_autom
 .PHONY : src/CMakeFiles/Security.dir/requires
 
 src/CMakeFiles/Security.dir/clean:
-	cd /home/salabeta/robocomp/components/parastroROB/SECURITY/build/src && $(CMAKE_COMMAND) -P CMakeFiles/Security.dir/cmake_clean.cmake
+	cd /home/juanlu/robocomp/components/parastroROB/SECURITY/build/src && $(CMAKE_COMMAND) -P CMakeFiles/Security.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/Security.dir/clean
 
 src/CMakeFiles/Security.dir/depend: src/CommonBehavior.cpp
@@ -507,6 +503,6 @@ src/CMakeFiles/Security.dir/depend: src/AprilTags.h
 src/CMakeFiles/Security.dir/depend: src/DifferentialRobot.cpp
 src/CMakeFiles/Security.dir/depend: src/DifferentialRobot.h
 src/CMakeFiles/Security.dir/depend: src/ui_mainUI.h
-	cd /home/salabeta/robocomp/components/parastroROB/SECURITY/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/salabeta/robocomp/components/parastroROB/SECURITY /home/salabeta/robocomp/components/parastroROB/SECURITY/src /home/salabeta/robocomp/components/parastroROB/SECURITY/build /home/salabeta/robocomp/components/parastroROB/SECURITY/build/src /home/salabeta/robocomp/components/parastroROB/SECURITY/build/src/CMakeFiles/Security.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/juanlu/robocomp/components/parastroROB/SECURITY/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/juanlu/robocomp/components/parastroROB/SECURITY /home/juanlu/robocomp/components/parastroROB/SECURITY/src /home/juanlu/robocomp/components/parastroROB/SECURITY/build /home/juanlu/robocomp/components/parastroROB/SECURITY/build/src /home/juanlu/robocomp/components/parastroROB/SECURITY/build/src/CMakeFiles/Security.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/Security.dir/depend
 

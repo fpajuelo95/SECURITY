@@ -41,11 +41,11 @@ public:
 	SpecificWorker(MapPrx& mprx);	
 	~SpecificWorker();
 	bool setParams(RoboCompCommonBehavior::ParameterList params);
+	void newAprilTag(const tagsList &tags);
 
 
 public slots:
 	void compute(); 
-	  void newAprilTag(const tagsList &tags);
 
 private:
     enum class State {WAIT, SEARCH};
@@ -83,7 +83,7 @@ private:
     }
   };
     InnerModel* innermodel;
-    int current;
+    int current = 0;
     State st = State::SEARCH;
     Tag t;
 

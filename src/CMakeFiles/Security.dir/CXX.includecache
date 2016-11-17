@@ -6,25 +6,29 @@
 
 #IncludeRegexTransform: 
 
-/home/salabeta/robocomp/classes/qlog/qlog.cpp
+/home/juanlu/robocomp/classes/qlog/qlog.cpp
 qlog.h
-/home/salabeta/robocomp/classes/qlog/qlog.h
+/home/juanlu/robocomp/classes/qlog/qlog.h
 
-/home/salabeta/robocomp/classes/qlog/qlog.h
+/home/juanlu/robocomp/classes/qlog/qlog.h
 config.h
-/home/salabeta/robocomp/classes/qlog/config.h
+/home/juanlu/robocomp/classes/qlog/config.h
 QtCore
 -
 iostream
 -
+boost/format.hpp
+-
 Logger.h
 -
+boost/format.hpp
+-
 
-/home/salabeta/robocomp/classes/rapplication/rapplication.cpp
+/home/juanlu/robocomp/classes/rapplication/rapplication.cpp
 rapplication.h
-/home/salabeta/robocomp/classes/rapplication/rapplication.h
+/home/juanlu/robocomp/classes/rapplication/rapplication.h
 
-/home/salabeta/robocomp/classes/rapplication/rapplication.h
+/home/juanlu/robocomp/classes/rapplication/rapplication.h
 Ice/Ice.h
 -
 Ice/Application.h
@@ -34,7 +38,7 @@ IceUtil/IceUtil.h
 QtCore
 -
 
-/home/salabeta/robocomp/components/parastroROB/SECURITY/src/AprilTags.cpp
+/home/juanlu/robocomp/components/parastroROB/SECURITY/src/AprilTags.cpp
 AprilTags.h
 -
 Ice/LocalException.h
@@ -48,7 +52,7 @@ Ice/Object.h
 IceUtil/Iterator.h
 -
 
-/home/salabeta/robocomp/components/parastroROB/SECURITY/src/CommonBehavior.cpp
+/home/juanlu/robocomp/components/parastroROB/SECURITY/src/CommonBehavior.cpp
 CommonBehavior.h
 -
 Ice/LocalException.h
@@ -62,7 +66,7 @@ Ice/Object.h
 IceUtil/Iterator.h
 -
 
-/home/salabeta/robocomp/components/parastroROB/SECURITY/src/DifferentialRobot.cpp
+/home/juanlu/robocomp/components/parastroROB/SECURITY/src/DifferentialRobot.cpp
 DifferentialRobot.h
 -
 Ice/LocalException.h
@@ -76,7 +80,7 @@ Ice/Object.h
 IceUtil/Iterator.h
 -
 
-/home/salabeta/robocomp/components/parastroROB/SECURITY/src/GotoPoint.cpp
+/home/juanlu/robocomp/components/parastroROB/SECURITY/src/GotoPoint.cpp
 GotoPoint.h
 -
 Ice/LocalException.h
@@ -90,25 +94,25 @@ Ice/Object.h
 IceUtil/Iterator.h
 -
 
-/home/salabeta/robocomp/components/parastroROB/SECURITY/src/Security_automoc.cpp
+/home/juanlu/robocomp/components/parastroROB/SECURITY/src/Security_automoc.cpp
 moc_apriltagsI.cpp
-/home/salabeta/robocomp/components/parastroROB/SECURITY/src/moc_apriltagsI.cpp
+/home/juanlu/robocomp/components/parastroROB/SECURITY/src/moc_apriltagsI.cpp
 moc_commonbehaviorI.cpp
-/home/salabeta/robocomp/components/parastroROB/SECURITY/src/moc_commonbehaviorI.cpp
+/home/juanlu/robocomp/components/parastroROB/SECURITY/src/moc_commonbehaviorI.cpp
 moc_genericmonitor.cpp
-/home/salabeta/robocomp/components/parastroROB/SECURITY/src/moc_genericmonitor.cpp
+/home/juanlu/robocomp/components/parastroROB/SECURITY/src/moc_genericmonitor.cpp
 moc_genericworker.cpp
-/home/salabeta/robocomp/components/parastroROB/SECURITY/src/moc_genericworker.cpp
+/home/juanlu/robocomp/components/parastroROB/SECURITY/src/moc_genericworker.cpp
 moc_specificmonitor.cpp
-/home/salabeta/robocomp/components/parastroROB/SECURITY/src/moc_specificmonitor.cpp
+/home/juanlu/robocomp/components/parastroROB/SECURITY/src/moc_specificmonitor.cpp
 moc_specificworker.cpp
-/home/salabeta/robocomp/components/parastroROB/SECURITY/src/moc_specificworker.cpp
+/home/juanlu/robocomp/components/parastroROB/SECURITY/src/moc_specificworker.cpp
 
-/home/salabeta/robocomp/components/parastroROB/SECURITY/src/apriltagsI.cpp
+/home/juanlu/robocomp/components/parastroROB/SECURITY/src/apriltagsI.cpp
 apriltagsI.h
-/home/salabeta/robocomp/components/parastroROB/SECURITY/src/apriltagsI.h
+/home/juanlu/robocomp/components/parastroROB/SECURITY/src/apriltagsI.h
 
-/home/salabeta/robocomp/components/parastroROB/SECURITY/src/apriltagsI.h
+/home/juanlu/robocomp/components/parastroROB/SECURITY/src/apriltagsI.h
 QtCore/QObject
 -
 Ice/Ice.h
@@ -118,13 +122,13 @@ AprilTags.h
 config.h
 -
 genericworker.h
-/home/salabeta/robocomp/components/parastroROB/SECURITY/src/genericworker.h
+/home/juanlu/robocomp/components/parastroROB/SECURITY/src/genericworker.h
 
-/home/salabeta/robocomp/components/parastroROB/SECURITY/src/commonbehaviorI.cpp
+/home/juanlu/robocomp/components/parastroROB/SECURITY/src/commonbehaviorI.cpp
 commonbehaviorI.h
-/home/salabeta/robocomp/components/parastroROB/SECURITY/src/commonbehaviorI.h
+/home/juanlu/robocomp/components/parastroROB/SECURITY/src/commonbehaviorI.h
 
-/home/salabeta/robocomp/components/parastroROB/SECURITY/src/commonbehaviorI.h
+/home/juanlu/robocomp/components/parastroROB/SECURITY/src/commonbehaviorI.h
 QtCore/QObject
 -
 Ice/Ice.h
@@ -134,37 +138,37 @@ CommonBehavior.h
 config.h
 -
 genericworker.h
-/home/salabeta/robocomp/components/parastroROB/SECURITY/src/genericworker.h
+/home/juanlu/robocomp/components/parastroROB/SECURITY/src/genericworker.h
 genericmonitor.h
-/home/salabeta/robocomp/components/parastroROB/SECURITY/src/genericmonitor.h
+/home/juanlu/robocomp/components/parastroROB/SECURITY/src/genericmonitor.h
 
-/home/salabeta/robocomp/components/parastroROB/SECURITY/src/config.h
+/home/juanlu/robocomp/components/parastroROB/SECURITY/src/config.h
 
-/home/salabeta/robocomp/components/parastroROB/SECURITY/src/genericmonitor.cpp
+/home/juanlu/robocomp/components/parastroROB/SECURITY/src/genericmonitor.cpp
 genericmonitor.h
-/home/salabeta/robocomp/components/parastroROB/SECURITY/src/genericmonitor.h
+/home/juanlu/robocomp/components/parastroROB/SECURITY/src/genericmonitor.h
 
-/home/salabeta/robocomp/components/parastroROB/SECURITY/src/genericmonitor.h
+/home/juanlu/robocomp/components/parastroROB/SECURITY/src/genericmonitor.h
 Ice/Ice.h
 -
 QtCore
 -
 genericworker.h
-/home/salabeta/robocomp/components/parastroROB/SECURITY/src/genericworker.h
+/home/juanlu/robocomp/components/parastroROB/SECURITY/src/genericworker.h
 config.h
-/home/salabeta/robocomp/components/parastroROB/SECURITY/src/config.h
+/home/juanlu/robocomp/components/parastroROB/SECURITY/src/config.h
 qlog/qlog.h
 -
 CommonBehavior.h
 -
 
-/home/salabeta/robocomp/components/parastroROB/SECURITY/src/genericworker.cpp
+/home/juanlu/robocomp/components/parastroROB/SECURITY/src/genericworker.cpp
 genericworker.h
-/home/salabeta/robocomp/components/parastroROB/SECURITY/src/genericworker.h
+/home/juanlu/robocomp/components/parastroROB/SECURITY/src/genericworker.h
 
-/home/salabeta/robocomp/components/parastroROB/SECURITY/src/genericworker.h
+/home/juanlu/robocomp/components/parastroROB/SECURITY/src/genericworker.h
 config.h
-/home/salabeta/robocomp/components/parastroROB/SECURITY/src/config.h
+/home/juanlu/robocomp/components/parastroROB/SECURITY/src/config.h
 QtGui
 -
 stdint.h
@@ -182,7 +186,7 @@ DifferentialRobot.h
 AprilTags.h
 -
 
-/home/salabeta/robocomp/components/parastroROB/SECURITY/src/main.cpp
+/home/juanlu/robocomp/components/parastroROB/SECURITY/src/main.cpp
 signal.h
 -
 QtCore
@@ -200,17 +204,17 @@ rapplication/rapplication.h
 qlog/qlog.h
 -
 config.h
-/home/salabeta/robocomp/components/parastroROB/SECURITY/src/config.h
+/home/juanlu/robocomp/components/parastroROB/SECURITY/src/config.h
 genericmonitor.h
-/home/salabeta/robocomp/components/parastroROB/SECURITY/src/genericmonitor.h
+/home/juanlu/robocomp/components/parastroROB/SECURITY/src/genericmonitor.h
 genericworker.h
-/home/salabeta/robocomp/components/parastroROB/SECURITY/src/genericworker.h
+/home/juanlu/robocomp/components/parastroROB/SECURITY/src/genericworker.h
 specificworker.h
-/home/salabeta/robocomp/components/parastroROB/SECURITY/src/specificworker.h
+/home/juanlu/robocomp/components/parastroROB/SECURITY/src/specificworker.h
 specificmonitor.h
-/home/salabeta/robocomp/components/parastroROB/SECURITY/src/specificmonitor.h
+/home/juanlu/robocomp/components/parastroROB/SECURITY/src/specificmonitor.h
 commonbehaviorI.h
-/home/salabeta/robocomp/components/parastroROB/SECURITY/src/commonbehaviorI.h
+/home/juanlu/robocomp/components/parastroROB/SECURITY/src/commonbehaviorI.h
 apriltagsI.h
 -
 GotoPoint.h
@@ -220,43 +224,43 @@ AprilTags.h
 DifferentialRobot.h
 -
 
-/home/salabeta/robocomp/components/parastroROB/SECURITY/src/moc_apriltagsI.cpp
+/home/juanlu/robocomp/components/parastroROB/SECURITY/src/moc_apriltagsI.cpp
 apriltagsI.h
-/home/salabeta/robocomp/components/parastroROB/SECURITY/src/apriltagsI.h
+/home/juanlu/robocomp/components/parastroROB/SECURITY/src/apriltagsI.h
 
-/home/salabeta/robocomp/components/parastroROB/SECURITY/src/moc_commonbehaviorI.cpp
+/home/juanlu/robocomp/components/parastroROB/SECURITY/src/moc_commonbehaviorI.cpp
 commonbehaviorI.h
-/home/salabeta/robocomp/components/parastroROB/SECURITY/src/commonbehaviorI.h
+/home/juanlu/robocomp/components/parastroROB/SECURITY/src/commonbehaviorI.h
 
-/home/salabeta/robocomp/components/parastroROB/SECURITY/src/moc_genericmonitor.cpp
+/home/juanlu/robocomp/components/parastroROB/SECURITY/src/moc_genericmonitor.cpp
 genericmonitor.h
-/home/salabeta/robocomp/components/parastroROB/SECURITY/src/genericmonitor.h
+/home/juanlu/robocomp/components/parastroROB/SECURITY/src/genericmonitor.h
 
-/home/salabeta/robocomp/components/parastroROB/SECURITY/src/moc_genericworker.cpp
+/home/juanlu/robocomp/components/parastroROB/SECURITY/src/moc_genericworker.cpp
 genericworker.h
-/home/salabeta/robocomp/components/parastroROB/SECURITY/src/genericworker.h
+/home/juanlu/robocomp/components/parastroROB/SECURITY/src/genericworker.h
 
-/home/salabeta/robocomp/components/parastroROB/SECURITY/src/moc_specificmonitor.cpp
+/home/juanlu/robocomp/components/parastroROB/SECURITY/src/moc_specificmonitor.cpp
 specificmonitor.h
-/home/salabeta/robocomp/components/parastroROB/SECURITY/src/specificmonitor.h
+/home/juanlu/robocomp/components/parastroROB/SECURITY/src/specificmonitor.h
 
-/home/salabeta/robocomp/components/parastroROB/SECURITY/src/moc_specificworker.cpp
+/home/juanlu/robocomp/components/parastroROB/SECURITY/src/moc_specificworker.cpp
 specificworker.h
-/home/salabeta/robocomp/components/parastroROB/SECURITY/src/specificworker.h
+/home/juanlu/robocomp/components/parastroROB/SECURITY/src/specificworker.h
 
-/home/salabeta/robocomp/components/parastroROB/SECURITY/src/specificmonitor.cpp
+/home/juanlu/robocomp/components/parastroROB/SECURITY/src/specificmonitor.cpp
 specificmonitor.h
-/home/salabeta/robocomp/components/parastroROB/SECURITY/src/specificmonitor.h
+/home/juanlu/robocomp/components/parastroROB/SECURITY/src/specificmonitor.h
 
-/home/salabeta/robocomp/components/parastroROB/SECURITY/src/specificmonitor.h
+/home/juanlu/robocomp/components/parastroROB/SECURITY/src/specificmonitor.h
 genericmonitor.h
-/home/salabeta/robocomp/components/parastroROB/SECURITY/src/genericmonitor.h
+/home/juanlu/robocomp/components/parastroROB/SECURITY/src/genericmonitor.h
 
-/home/salabeta/robocomp/components/parastroROB/SECURITY/src/specificworker.cpp
+/home/juanlu/robocomp/components/parastroROB/SECURITY/src/specificworker.cpp
 specificworker.h
-/home/salabeta/robocomp/components/parastroROB/SECURITY/src/specificworker.h
+/home/juanlu/robocomp/components/parastroROB/SECURITY/src/specificworker.h
 
-/home/salabeta/robocomp/components/parastroROB/SECURITY/src/specificworker.h
+/home/juanlu/robocomp/components/parastroROB/SECURITY/src/specificworker.h
 genericworker.h
 -
 innermodel/innermodel.h
