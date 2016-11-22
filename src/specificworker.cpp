@@ -42,6 +42,7 @@ bool SpecificWorker::setParams(RoboCompCommonBehavior::ParameterList params)
 
 	current = 0;
 	innermodel=new InnerModel("/home/robocomp/robocomp/files/innermodel/simpleworld.xml");	
+	t.init(innermodel);
 	timer.start(Period);	
 
 	return true;
@@ -62,12 +63,12 @@ try
     case State::SEARCH:
 	qDebug()<< "SEARCH";
 	if(t.getid()==current){
-	  gotopoint_proxy->stop();
-	  gotopoint_proxy->go("base",t.getPose().x(),t.getPose().z(),0);
+	  differentialrobot_proxy->stopBase();
+	  gotopoint_proxy->go("",t.getPose().x(),t.getPose().z(),0);
 
 	  st=State::WAIT;
 	}else
-	  gotopoint_proxy->turn(0.3);
+	differentialrobot_proxy->setSpeedBase(0, 0.3);
 
 	break;
       
@@ -75,12 +76,17 @@ try
 	qDebug()<< "WAIT";
 	if(gotopoint_proxy->atTarget()==true)
 	{
-	  gotopoint_proxy->stop();
+	  differentialrobot_proxy->stopBase();
 	  st=State::SEARCH;
 	  current = (current+1)%4;
 	}
-
+	
+	if(t.cambiar()) 
+	{
+	  gotopoint_proxy->go("",t.getPose().x(),t.getPose().z(),0);
+	}
 	break;
+	
 // 	try
 // 	{
 // 		camera_proxy->getYImage(0,img, cState, bState);
@@ -98,11 +104,10 @@ try
   { std::cout << e << std::endl;};
 }
 
-void SpecificWorker::newAprilTag(const tagsList& tags)
+void SpecificWorker::newAprilTag(const tagsList& tag)
 {
-  qDebug()<< tags[0].id;
-  t.init(innermodel);
-  t.copy (tags[0].tx,tags[0].tz,tags[0].id);
+  qDebug()<< tag[0].id;
+  t.copy (tag[0].tx,tag[0].tz,tag[0].id);
   
 }
 
