@@ -62,28 +62,27 @@ try
    {
     case State::SEARCH:
 	qDebug()<< "SEARCH";
+	qDebug()<< current;
 	if(t.getid()==current){
 	  differentialrobot_proxy->stopBase();
 	  gotopoint_proxy->go("",t.getPose().x(),t.getPose().z(),0);
 
 	  st=State::WAIT;
 	}else
-	differentialrobot_proxy->setSpeedBase(0, 0.3);
-
+	gotopoint_proxy->turn(0.3);
 	break;
       
     case State::WAIT:
 	qDebug()<< "WAIT";
 	if(gotopoint_proxy->atTarget()==true)
 	{
+	  qDebug()<< "Encontrado";
 	  differentialrobot_proxy->stopBase();
 	  st=State::SEARCH;
 	  current = (current+1)%4;
-	}
-	
-	if(t.cambiar()) 
+	}else if(t.cambiar()) 
 	{
-	  gotopoint_proxy->go("",t.getPose().x(),t.getPose().z(),0);
+// 	  gotopoint_proxy->go("",t.getPose().x(),t.getPose().z(),0);
 	}
 	break;
 	

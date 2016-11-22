@@ -54,7 +54,7 @@ private:
   {
     QMutex m;
     QVec pose;
-     QVec poseA;
+    QVec poseA;
     int id = 0;
     InnerModel* inner;
     
@@ -86,9 +86,11 @@ private:
      bool cambiar()
     {
      QMutexLocker ml (&m);
-     float d = (pose - poseA).norm2();
-     poseA = pose;
-     return d > 100;
+     if((pose - poseA).norm2() >100){
+	poseA = pose;
+	return true;
+     }
+     return false;
      
    }
   };
